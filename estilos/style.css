@@ -361,8 +361,8 @@ footer .last {
     }
     .header-block .text {
         position: absolute;
-        bottom: 1%;
-        left: 15;
+        bottom: 20%;
+        left: 25;
     }
     section .filter-card {
         max-width: 300px;
