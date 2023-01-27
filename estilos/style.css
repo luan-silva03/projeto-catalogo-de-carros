@@ -361,15 +361,16 @@ footer .last {
     }
     .header-block .text {
         position: absolute;
-        bottom: 1%;
+        bottom: 10%;
         left: 15;
     }
     section .filter-card {
-        width: 390px;
+        max-width: 300px;
+        min-width: 240;
         padding: 0px 10px;
     }
     .search-input {
-        max-width: 120px;
+        max-width: 200px;
         min-width: 100px;
     }
     .search-button {
@@ -380,11 +381,44 @@ footer .last {
         margin-top: 100px;
     }
     .title-wrapper-about {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .about-content {
         flex-direction: column;
         height: 100%;
     }
-    {}
+    section .card-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        width: 100%;
+    }
+    .right p {
+        width: 100%;
+        margin: 0px;
+        text-align: left;
+    }
+    .features {
+        width: 100%;
+    }
+    .feature-card-block {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        width: 100%;
+    }
+    footer .main {
+        height: 460px;
+    }
+    .footer-links {
+        flex-direction: column;
+        padding-left: 10%;
+    }
+
 }
