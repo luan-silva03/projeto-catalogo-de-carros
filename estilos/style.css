@@ -361,7 +361,7 @@ footer .last {
     }
     .header-block .text {
         position: absolute;
-        bottom: 10%;
+        bottom: 20px;
         left: 15;
     }
     section .filter-card {
@@ -390,6 +390,9 @@ footer .last {
     section .card-wrapper {
         display: flex;
         flex-direction: column;
+    }
+    .card-item {
+        margin-bottom: 30px;
     }
     .left {
         display: none;
