@@ -354,15 +354,15 @@ footer .last {
         display: none;
     }
     .header-block img {
-        width: 70%;
+        width: 60%;
         position: absolute;
         right: 16%;
-        top: 30%;
+        top: 10%;
     }
     .header-block .text {
         position: absolute;
-        bottom: 20%;
-        left: 25;
+        bottom: 5%;
+        left: 25%;
     }
     section .filter-card {
         max-width: 300px;
